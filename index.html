@@ -1,0 +1,558 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-------Bootstrap CSS CDN------->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+
+    <!-------Bootstrap Script CDN------->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-------Font Awesome------->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!------Google Fonts------>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+
+    <!-------CSS File-------->
+    <link rel="stylesheet" href="/style.css">
+
+    <!-------CSS AOS Animation File-------->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <title>House Website</title>
+</head>
+
+<body>
+    <!-------------Header Section--------------->
+    <div id="header">
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <a class="navbar-brand" href="#"><img src="logo.png" alt=""></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fa fa-bars"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#banner">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#done">Experience</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#blog">Blogs</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#testimonials">Testimonials</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+                <div class="bt ml-auto text-center">
+                    <button>Start Project</button>
+                </div>
+            </div>
+        </nav>
+        <!-------------Banner Text--------------->
+        <div id="banner">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 text-center">
+                        <div class="banner">
+                            <h1>Top Rated <span style="color: #FF914D;">Remodeling </span>Contractor Serving</h1>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga, sunt ea. Enim.</p>
+                            <div class="text-center">
+                                <button>Start Project</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-------------Card Section--------------->
+    <div id="card">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-md-6 col-lg-3 text-center hi">
+                    <div class="card" data-aos="zoom-in">
+                        <div class="card-img">
+                            <img src="card-1.png" alt="" class="card-img img-fluid">
+                            <div class="cont">
+                                <h4 class="card-title">Kitchens</h4>
+                                <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit fugit aut
+                                    culpa.</p>
+                                <div class="card-bt">
+                                    <button>Service Details</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-3 text-center hi">
+                    <div class="card" data-aos="zoom-out">
+                        <div class="card-img">
+                            <img src="card-2.png" alt="" class="card-img img-fluid">
+                            <div class="cont">
+                                <h4 class="card-title">Washrooms</h4>
+                                <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit fugit aut
+                                    culpa.</p>
+                                <div class="card-bt">
+                                    <button>Service Details</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-3 text-center hi">
+                    <div class="card" data-aos="zoom-in">
+                        <div class="card-img">
+                            <img src="card-3.png" alt="" class="card-img img-fluid">
+                            <div class="cont">
+                                <h4 class="card-title">Basements</h4>
+                                <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit fugit aut
+                                    culpa.</p>
+                                <div class="card-bt">
+                                    <button>Service Details</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-3 text-center hi">
+                    <div class="card" data-aos="zoom-out">
+                        <div class="card-img">
+                            <img src="card-4.png" alt="" class="card-img img-fluid">
+                            <div class="cont">
+                                <h4 class="card-title">Decks</h4>
+                                <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit fugit aut
+                                    culpa.</p>
+                                <div class="card-bt">
+                                    <button>Service Details</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+
+    <!-------------About Section--------------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-lg-6 py-5">
+                    <div class="about-text">
+                        <h1 style="color: #FF914D;"><span style="color: black;">About</span>.</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat nesciunt iste optio ipsa,
+                            velit veritatis placeat excepturi eligendi illum architecto quos dignissimos unde voluptatum
+                            pariatur delectus. Placeat laudantium harum minima aperiam numquam maiores. Consequuntur,
+                            eum. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ut modi quas, eos odio id
+                            nulla.</p>
+
+                        <ul class="list-unstyled">
+                            <li><i class="fa fa-check"></i> Best Condition</li>
+                            <li><i class="fa fa-check"></i> Full Quarantee</li>
+                            <li><i class="fa fa-check"></i> Customer Satisfied</li>
+                        </ul>
+                        <div class="card-bt">
+                            <button>Learn More About</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-6 py-3 hi">
+                    <div class="about-img">
+                        <img src="about.png" alt="" class="img-fluid" data-aos="fade-up">
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-------------Promo Section--------------->
+    <div id="promo">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center hi">
+                    <div class="promo" data-aos="fade-dwon">
+                        <h1>With Over <span style="color: #FF914D;"> 30 Years </span>Of Experience</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum, velit?</p>
+                        <div class="bt-promo text-center">
+                            <button>Start Project</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-------------Done Section--------------->
+    <div id="done">
+
+        <div class="container pt-5">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <div class="done-text mt-5">
+                        <h1 style="color: #FF914D;">-<span style="color: black;">What We Have Done</span>-</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure dicta delectus voluptatem
+                            incidunt vero eveniet?</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+
+                <div class="col-md-4 mt-4 text-center hi">
+                    <div class="done" data-aos="zoom-out">
+                        <img src="card-4.png" alt="" class="img-fluid">
+                        <h2 class="mt-3">Edris</h2>
+                        <p>House Remodel.</p>
+                    </div>
+                </div>
+
+                <div class="col-md-4 mt-4 text-center hi">
+                    <div class="done" data-aos="flip-down">
+                        <img src="card-2.png" alt="" class="img-fluid">
+                        <h2 class="mt-3">Clarks Way</h2>
+                        <p>Bathrooms Remodel.</p>
+                    </div>
+                </div>
+
+                <div class="col-md-4 mt-4 text-center hi">
+                    <div class="done" data-aos="zoom-out">
+                        <img src="card-1.png" alt="" class="img-fluid">
+                        <h2 class="mt-3">Jennifer</h2>
+                        <p>Kitchen Remodel.</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+    <!-------------Strength Section--------------->
+    <div id="strength">
+        <div class="container mt-5">
+            <div class="row">
+
+                <div class="col-md-7 hi">
+                    <div class="st-text" data-aos="fade-right">
+
+                        <h3 class="mt-5"><i class="fa fa-check"></i>Residential Remodeling Company</h3>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus magni a minus ex,
+                            exercitationem veniam?</p>
+
+                        <h3 class="mt-4"><i class="fa fa-check"></i>A Team of Qualified Experts</h3>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus magni a minus ex,
+                            exercitationem veniam?</p>
+
+                        <h3 class="mt-4"><i class="fa fa-check"></i>Lisenced and Insured</h3>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus magni a minus ex,
+                            exercitationem veniam?</p>
+                    </div>
+                </div>
+
+                <div class="col-md-5 hi" style="overflow-x: hidden;">
+                    <div class="st-img" data-aos="fade-left">
+                        <img src="st.png" alt="" class="img-fluid">
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-------------Testimonials Section--------------->
+    <div id="testimonials">
+
+        <div class="container pt-5">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <div class="done-text mt-5">
+                        <h1 style="color: #FF914D;">-<span style="color: black;">What Our Client Says</span>-</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure dicta delectus voluptatem
+                            incidunt vero eveniet?</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+
+
+                <div class="col-lg-4 py-4 hi">
+                    <div class="testi" data-aos="fade-down-left">
+                        <div class="user">
+                            <img src="img-1.jpg" alt="" class="img-fluid">
+                            <div class="user-info">
+                                <h3>John Doe <i class="fa fa-twitter"></i></h3>
+                                <small><i> @johndoe</i></small>
+                            </div>
+                        </div>
+                        <div class="para">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero debitis aut, soluta
+                                molestias et fugit Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet consectetur
+                                adipisicing.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 py-4 hi">
+                    <div class="testi" data-aos="fade-up">
+                        <div class="user">
+                            <img src="img-2.jpg" alt="" class="img-fluid">
+                            <div class="user-info">
+                                <h3>James Bye <i class="fa fa-twitter"></i></h3>
+                                <small> <i> @jamesbye</i></small>
+                            </div>
+                        </div>
+                        <div class="para">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero debitis aut, soluta
+                                molestias et fugit Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet consectetur
+                                adipisicing.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 py-4 hi">
+                    <div class="testi" data-aos="fade-down-right">
+                        <div class="user">
+                            <img src="img-3.jpg" alt="" class="img-fluid">
+                            <div class="user-info">
+                                <h3>Thomas <i class="fa fa-twitter"></i></h3>
+                                <small> <i> @thomas</i></small>
+                            </div>
+                        </div>
+                        <div class="para">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero debitis aut, soluta
+                                molestias et fugit Lorem ipsum dolor sit amet. Lorem ipsum dolor, sit amet consectetur
+                                adipisicing.</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+    <!-------------Blog Section--------------->
+    <div id="blog">
+
+        <div class="container pt-5">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <div class="done-text mt-5">
+                        <h1 style="color: #FF914D;">-<span style="color: black;">Latest Blog Posts</span>-</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure dicta delectus voluptatem
+                            incidunt vero eveniet?</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+
+                <div class="col-lg-4 text-center hi">
+                    <div class="blog" data-aos="flip-left">
+                        <img src="card-4.png" alt="" class="img-fluid">
+                        <h3>Lisenced and Insured</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate vero obcaecati optio vel
+                            doloremque assumenda.</p>
+                        <div class="card-bt bl">
+                            <button>Read More <i class="fa fa-arrow-right"></i></button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 text-center hi">
+                    <div class="blog" data-aos="zoom-in">
+                        <img src="banner-1.png" alt="" class="img-fluid">
+                        <h3>Contractor and Serving</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate vero obcaecati optio vel
+                            doloremque assumenda.</p>
+                        <div class="card-bt bl">
+                            <button>Read More <i class="fa fa-arrow-right"></i></button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 text-center hi">
+                    <div class="blog" data-aos="flip-right">
+                        <img src="banner.png" alt="" class="img-fluid">
+                        <h3>Top Rated Remodeling</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate vero obcaecati optio vel
+                            doloremque assumenda.</p>
+                        <div class="card-bt bl">
+                            <button>Read More <i class="fa fa-arrow-right"></i></button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+    <!-------------Contact Section--------------->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-lg-6 text-center hi">
+                    <div class="cont-img" data-aos="fade-up">
+                        <img src="cont.png" alt="" class="img-fluid">
+                    </div>
+                </div>
+
+                <div class="col-lg-6 hi" style="overflow-x: hidden;">
+                    <div class="cont-form" data-aos="fade-left">
+                        <div class="done-text ct text-center">
+                            <h1 style="color: #FF914D;">Contact.</h1>
+                        </div>
+                        <div class="contact-form">
+                            <div class="form-group">
+                                <input type="text" class="form-control" placeholder="Your Name">
+                            </div>
+                            <div class="form-group">
+                                <input type="number" class="form-control" placeholder="Mobile Number">
+                            </div>
+                            <div class="form-group">
+                                <input type="email" class="form-control" placeholder="Your Email">
+                            </div>
+                            <div class="form-group">
+                                <textarea rows="5" class="form-control" placeholder="Your Message"></textarea>
+                            </div>
+                            <div class="card-bt ct text-center">
+                                <button>Contact</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-------------Footer Section--------------->
+    <div id="footer">
+        <div class="container">
+
+            <div class="row">
+                <div class="col-md-2 showcase">
+                    <img src="card-1.png" alt="" class="img-fluid" style="border-radius: 5px;">
+                </div>
+                <div class="col-md-2 showcase">
+                    <img src="banner.png" alt="" class="img-fluid" style="border-radius: 5px;">
+                </div>
+                <div class="col-md-2 showcase">
+                    <img src="banner-1.png" alt="" class="img-fluid" style="border-radius: 5px;">
+                </div>
+                <div class="col-md-2 showcase">
+                    <img src="card-3.png" alt="" class="img-fluid" style="border-radius: 5px;">
+                </div>
+                <div class="col-md-2 showcase">
+                    <img src="card-4.png" alt="" class="img-fluid" style="border-radius: 5px;">
+                </div>
+                <div class="col-md-2 showcase">
+                    <img src="card-2.png" alt="" class="img-fluid" style="border-radius: 5px;">
+                </div>
+            </div>
+
+            <div class="row ft py-5">
+
+                <div class="col-md-4">
+                    <div class="about">
+                        <img src="logo.png" alt="">
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eligendi ut alias magnam, nulla
+                            optio quasi. Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                        <i class="fa fa-facebook"></i><i class="fa fa-instagram"></i><i class="fa fa-linkedin"></i><i
+                            class="fa fa-whatsapp"></i>
+                    </div>
+                </div>
+
+                <div class="col-md-2 mt-4 text-center">
+                    <div class="links">
+                        <h3>Useful Links</h3>
+                        <ul class="list-unstyled">
+                            <li>> Home</li>
+                            <li>> About</li>
+                            <li>> Services</li>
+                            <li>> Contact</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-md-3 mt-4 text-center">
+                    <div class="address">
+                        <h3>Address</h3>
+                        <p><i class="fa fa-home"></i> 123 Main Street, City</p>
+                        <p><i class="fa fa-envelope"></i> huzaifa@developer.com</p>
+                        <p><i class="fa fa-phone"></i> +12345678910</p>
+                    </div>
+                </div>
+
+                <div class="col-md-3 mt-4 text-center">
+                    <div class="newsletter">
+                     <h3>Subscribe Our Newsletter</h3>
+                     <div class="input-group mt-4">
+                        <input type="text" class="form-control" placeholder="Email">
+                        <div class="input-group-append">
+                            <button class="btn btn-primary">Submit</button>
+                       </div>
+                    </div>
+                </div>
+
+            </div>
+         </div><hr style="background: white;">
+         <div class="container">
+             <div class="row">
+                 <div class="col-md-12 text-center">
+                     <div class="copy">
+                         <p>Created By <i class="fa fa-heart"></i> Huzaifa Developer</p>
+                     </div>
+                 </div>
+             </div>
+         </div>
+
+    </div>
+
+
+    <!-------JS AOS Animation File-------->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 1200,
+            offset: 200
+        });
+    </script>
+</body>
+
+</html>
